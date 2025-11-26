@@ -7,7 +7,7 @@ A web-based tool to extract and analyze DataLayer implementations and Schema.org
 - Real-time Logging: Monitor extraction progress with detailed logs
 - Formatted Output: Easy-to-read JSON display with proper formatting
 
-## How to Use
+## How to Use
 - Enter a website URL in the input field
 - Choose your extraction method:
 - Schema.org Scan: For structured data analysis (SEO, metadata)
