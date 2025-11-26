@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DataLayer and Schema.org Extractor</title>
+  <title>DataLayer & Schema.org Extractor</title>
   <style>
     * {
       margin: 0;
@@ -19,6 +19,7 @@
       background: #260E0E;
       min-height: 100vh;
       padding: 20px;
+      position: relative;
     }
 
     .container {
@@ -410,6 +411,26 @@
       color: #6c757d;
       margin-left: 8px;
     }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      color: #6c757d;
+      font-size: 14px;
+    }
+
+    .github-link {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .github-link:hover {
+      color: #2980b9;
+      text-decoration: underline;
+    }
   </style>
 </head>
 
@@ -417,7 +438,7 @@
   <div class="container">
     <div class="panel">
       <div class="panel-header">
-        <h1>DataLayer and Schema.org Extractor</h1>
+        <h1>DataLayer & Schema.org Extractor</h1>
         <p style="color: #6c757d; font-size: 16px;">Extract DataLayer implementations and Schema.org structured data from any website</p>
       </div>
       <div class="panel-content">
@@ -432,7 +453,7 @@
 
         <div class="form-group">
           <label for="urlInput">Website URL:</label>
-          <input type="url" id="urlInput" placeholder="https://example.com" value="https://whitespark.ca/" required>
+          <input type="url" id="urlInput" placeholder="https://example.com" value="" required>
         </div>
 
         <div class="extraction-methods">
@@ -482,6 +503,10 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://github.com/alaric-visi/datalayer-schema-extraction/" class="github-link" target="_blank">GitHub</a>
   </div>
 
   <script>
